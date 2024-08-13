@@ -1,0 +1,154 @@
+.productThumb1 {
+  width: 100%;
+  
+  height: auto !important;
+  border: 1px dashed rgba(0, 217, 192, 0.819);
+  overflow: hidden;
+  border-radius: 15px;
+  padding: 25px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+.item {
+  height: auto !important;
+}
+.plusminus{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 0.5px solid rgba(1, 134, 139, 0.112) ;
+}
+.plusminus span{
+  padding: 5px;
+  color: #031a36;
+  font-weight: 800;
+}
+
+.productThumb1 .badge-icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: inline-block;
+  background: red;
+  z-index: 10;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 16px;
+  border-bottom-right-radius: 50px;
+  border-top-left-radius: 5px;
+  text-transform: capitalize;
+}
+
+.productThumb1 .badge-icon.hot {
+  background: #f74b81 !important;
+}
+.productThumb1 .badge-icon.sale {
+  background: #67bcee !important;
+}
+.productThumb1 .badge-icon.new {
+  background: #3b8cb7 !important;
+}
+.productThumb1 .badge-icon.best {
+  background: #f59758 !important;
+}
+
+.productThumb1:hover {
+  box-shadow:
+    0 3px 6px rgba(0, 0, 0, 0.16),
+    0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
+.productThumb1 .imgWrapper1 {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+.productThumb1 .imgWrapper1 .wrapping {
+  height: 350px;
+  overflow: hidden;
+}
+.productThumb1 .imgWrapper1 img {
+  transition: all 0.3s ease-in-out;
+}
+
+.productThumb1 .imgWrapper1 .overlays {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  padding: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transform: scale(0.8);
+}
+
+.productThumb1:hover .imgWrapper1 .overlays {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.productThumb1 .imgWrapper1 .overlays ul {
+  background: #fff;
+  width: 140px;
+  height: auto;
+  border-radius: 10px;
+  border: 1px solid #bce2e3;
+}
+.productThumb1 .imgWrapper1 .overlays ul li {
+  margin-right: 0px !important;
+}
+.productThumb1 .imgWrapper1 .overlays ul li a {
+  display: block;
+  padding: 10px;
+  border-right: 1px solid #7Fb9F0;
+}
+.productThumb1 .imgWrapper1 .overlays ul li a svg {
+  color: #3b8cb7 !important;
+}
+.productThumb1 .imgWrapper1 .overlays ul li a:hover svg {
+  color: #000 !important;
+  opacity: 0.7;
+}
+
+.productThumb1:hover .imgWrapper1 img {
+  transform: scale(1.1);
+}
+
+.productThumb1 .catNames {
+  color: #000;
+ 
+  font-size: 20px;
+}
+.productThumb1 .titles {
+  margin: 10px 0px;
+}
+.productThumb1 .titles a {
+  color: #000;
+  font-weight: 600;
+  font-size: 22px;
+  text-decoration: none;
+  line-height: 22px;
+}
+.productThumb1 .branding {
+  color: rgba(0, 0, 0);
+}
+.productThumb1 .branding a {
+  text-decoration: none;
+}
+
+.productThumb1 button {
+  font-size: 20px !important;
+  color: #3b8cb7 !important;
+  padding: 5px 25px !important;
+  background: #d5feff !important;
+  text-transform: capitalize !important;
+}
+.productThumb1 button:hover {
+  background: #439dcd !important;
+  color: #fff !important;
+}
+

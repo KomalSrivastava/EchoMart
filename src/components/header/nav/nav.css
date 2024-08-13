@@ -1,0 +1,315 @@
+/* nav.css */
+
+/* General styles */
+.nav {
+  width: 100%;
+  height: 80px;
+  margin: auto; /* Centers horizontally */
+  display: flex;
+  align-items: center; /* Centers vertically */
+  justify-content: center;
+  position: relative;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.nav .container-fluid {
+  padding: 0;
+}
+
+.nav .row {
+  align-items: center;
+}
+
+/* Browse all category button */
+.nav .col-sm-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.nav .col-sm-2 .catTab {
+  margin-top: 13px;
+  padding: 5px 12px;
+  font-size: 20px;
+  text-transform: capitalize;
+}
+
+@media (min-width: 1000px) and (max-width: 1400px) {
+  .browBtn {
+    padding: auto;
+    height: 79px;
+  }
+  .nav nav ul li button a {
+    font-size: 15px;
+    color: #3b8cb7
+  }
+  .browHead {
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
+
+.catTab .MuiSvgIcon-root {
+  fill: #fff; /* Set icon color */
+  width: 24px; /* Adjust icon size as needed */
+  height: 24px;
+  margin-left: 5px;
+}
+
+.browHead {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+.nav nav ul li {
+  position: relative;
+  color: #3b8cb7;
+}
+
+.nav nav ul li button {
+  text-transform: capitalize;
+  padding: 20px;
+  border-radius: 3px;
+  color: #3b8cb7;
+}
+
+.active-link {
+  background-color: #3b8cb7;
+  padding: 8px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.nav nav ul li button:hover {
+  color: #3b8cb7;
+
+}
+
+.nav nav ul li button a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8);
+  font-size: 21px;
+  color: #3b8cb7
+}
+
+.nav .part3 .phNo svg {
+  font-size: 45px;
+  opacity: 0.8;
+}
+
+.nav .part3 .phNo h3 {
+  font-size: 32px;
+  line-height: 35px;
+}
+
+.nav .part3 .phNo p {
+  font-size: 16px;
+  opacity: 0.8;
+}
+
+.nav nav .dropdown_menu {
+  position: absolute;
+  top: 150%;
+  margin-top: -8px;
+  left: 0;
+  width: 300px;
+  background: #fff;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 10px 0px;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.1s ease-in-out;
+}
+.shpmenu{
+  margin-top: -15px !important;
+  padding: 40px 50px !important;
+}
+.nav nav .dropdown_menu .row{
+  align-items: flex-start !important;
+}
+
+.nav nav .dropdown_menu li {
+  list-style: none;
+}
+
+.nav nav .dropdown_menu li button {
+  text-align: left;
+  font-size: 16px;
+  padding: 10px 20px;
+  color: #3b8cb7 !important;
+}
+
+.nav nav .dropdown_menu li button a {
+  font-weight: 400;
+}
+
+.nav nav li:hover .dropdown_menu {
+  top: 100%;
+  opacity: 1;
+  visibility: visible;
+  color: #3b8cb7
+}
+
+.nav nav .all_menu {
+  position: absolute;
+  top: 100%;
+  left: 20px;
+  width: 35vw;
+  margin-top: -9px;
+  background: #fff;
+  color: #3b8cb7;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  padding: 10px 0;
+  z-index: 100;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.1s ease-in-out;
+}
+.list_item_nav{
+  padding: 10px 20px ;
+}
+.list_item_nav a{
+  color: #191717 !important;
+  text-decoration: none !important;
+  font-size: 24px !important;
+  text-transform: capitalize;
+}
+.list_item_nav a:hover{
+  color: #265475!important;
+}
+.nav nav .all_menu.browse_menu {
+  width: 50vw;
+  color: #3b8cb7
+}
+
+.nav nav .all_menu.browse_menu.expanded {
+  width: 75vw;
+}
+
+.nav nav .all_menu li {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #3b8cb7
+}
+
+.nav nav li:hover .all_menu {
+  top: 100%;
+  opacity: 1;
+  visibility: visible;
+  color: #3b8cb7
+}
+
+.set-box {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2px;
+  padding: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.grid-container.expanded {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.text-beox {
+  color: #191717;
+  font-size: 22px !important;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+.green-icon{
+  width: 50px;
+}
+.set-box:hover .text-beox {
+  color: #35729d;
+}
+
+.showM {
+  text-align: center;
+  margin-top: 5px;
+}
+
+.showM a {
+  color: #3b8cb7;
+  font-size: 18px;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: inline-block;
+  border: 1px solid #3b8cb7;
+  border-radius: 5px;
+  transition: background 0.3s, color 0.3s;
+}
+
+.showM a:hover {
+  background: #3b8cb7;
+  color: #fff;
+}
+
+
+
+
+.megaMenu .col ul li {
+  margin-bottom: 10px;
+}
+
+.megaMenu .col ul li a {
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
+  text-decoration: none;
+  transition: 0.3s ease-in-out;
+}
+.megaMenu .col ul li a:hover{
+  font-weight: 600 !important;
+}
+/* Ensure the nav container is targeted */
+.nav nav ul li {
+  position: relative;
+}
+
+/* Ensure the button styles are applied consistently */
+.nav nav ul li button {
+  text-transform: capitalize;
+  padding: 0; /* Remove padding to fit the effect properly */
+  border: none; /* Remove default button border */
+  background: transparent; /* Transparent background */
+  border-radius: 3px; /* Rounded corners */
+  transition: background-color 0.3s ease-in-out; /* Smooth transition */
+}
+
+/* Apply blue background color on hover for the button */
+.nav nav ul li button:hover {
+  background-color: #3b8cb7; /* Blue background on hover */
+}
+
+.nav nav ul li button:hover {
+  background-color: #3b8cb7; /* Blue background on hover */
+}
+
+/* Ensure the link inside the button has the correct styles */
+.nav nav ul li button a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.8); /* Default text color */
+  font-size: 21px;
+  display: block; /* Make sure link occupies full button area */
+  padding: 20px; /* Add padding to the link */
+  border-radius: 3px; /* Match button's border radius */
+  transition: color 0.3s ease-in-out; /* Smooth text color transition */
+}
+
+/* Change text color to white when hovering over button */
+.nav nav ul li button:hover a {
+  color: #fff; /* White text color on hover */
+}
