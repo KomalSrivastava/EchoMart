@@ -1,11 +1,11 @@
 import React, { useState, useEffect, useRef, useContext, useMemo, useCallback } from 'react';
 import SliderBanner from './slider/index';
 import CatSlider from '../../components/catSlider';
-import DealofDay from '../../components/DealofDay/DealofDay';
+
 import Banners from '../../components/banners';
 import './style.css';
 import Product from '../../components/product';
-import Banner4 from '../../assets/images/banner4.webp';
+
 import Slider from 'react-slick';
 
 import { MyContext } from '../../App';
@@ -94,7 +94,7 @@ const Home = ({ data }) => {
 
   return (
     <main style={{ display: 'block' }}>
-      <DealofDay productData={prodData} />
+      
       <SliderBanner />
       <CatSlider data={prodData} />
       <Banners />
