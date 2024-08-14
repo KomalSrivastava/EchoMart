@@ -42,7 +42,7 @@
 .about-container > .contributor-text {
   text-transform: capitalize;
   font-size: 40px;
-  color: #008080;
+  color: #003c80;
   font-weight: 500;
   margin-bottom: 30px;
 }
@@ -103,7 +103,7 @@
   text-align: center;
   margin-bottom: 3rem;
   margin-top: 3rem;
-  color: #008080;
+  color: #004d80;
   font-weight: 500;
   font-size: 40px;
 }
@@ -131,7 +131,7 @@
 
 /* Community Feature Block Styles */
 .about-us-community {
-  border: 2px solid #008080;
+  border: 2px solid #004280;
 }
 
 .about-us-community:hover {

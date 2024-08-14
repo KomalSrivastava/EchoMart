@@ -91,9 +91,7 @@ const AboutUs = () => {
             and a secure, streamlined checkout process. Real-time order tracking
             and responsive customer support further elevate the service, while
             special promotions and discounts keep the experience engaging.
-            Designed to be mobile-friendly, EchoCart delivers a seamless
-            shopping experience across all devices, combining convenience,
-            security, and a commitment to customer satisfaction.
+            Designed to be mobile-friendly.
           </p>
         </div>
         <div
@@ -116,9 +114,7 @@ const AboutUs = () => {
             and a secure, streamlined checkout process. Real-time order tracking
             and responsive customer support further elevate the service, while
             special promotions and discounts keep the experience engaging.
-            Designed to be mobile-friendly, EchoCart delivers a seamless
-            shopping experience across all devices, combining convenience,
-            security, and a commitment to customer satisfaction.
+            Designed to be mobile-friendly.
           </p>
         </div>
       </div>

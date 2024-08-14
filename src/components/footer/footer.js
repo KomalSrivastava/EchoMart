@@ -190,7 +190,7 @@ const Footer = () => {
                 </Link>
                 <br />
                 <br />
-                <h4>Awesome grocery store website template🍊🥝 </h4>
+                <h4>Grocery store🍊🥝 </h4>
                 <br />
 
                 <h5
@@ -266,10 +266,7 @@ const Footer = () => {
             <hr />
 
             <div className="row lastStrip">
-              <div className="col-md-4 part_1">
-                <h6>© {currentYear}, Nest - HTML Ecommerce Template</h6>
-                <h6>All rights reserved</h6>
-              </div>
+              
 
               <div className="col-md-4 d-flex part_2 align-items-center">
                 <div className="phNo d-flex align-items-center mx-5">
