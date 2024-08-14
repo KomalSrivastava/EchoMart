@@ -36,8 +36,8 @@
 }
 
 .faq-question {
-  background-color: #78ecb4;
-  color : rgb(3, 66, 3);
+  background-color: #78eaec;
+  color : rgb(5, 102, 119);
   font-weight: 600;
   border: none;
   border-radius: 5px;
@@ -57,7 +57,7 @@ svg {
 }
 
 .faq-question:hover {
-  background-color:rgb(3, 66, 3);
+  background-color:rgb(3, 39, 66);
   color: white;
 }
 

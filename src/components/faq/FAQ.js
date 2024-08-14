@@ -84,11 +84,6 @@ const faqs = [
       "To update your account information, log in to your account, go to the 'Profile' section, and make the necessary changes. Don't forget to save your updates."
   },
   {
-    question: 'What is ONDC and how does it work?',
-    answer:
-      'ONDC (Open Network for Digital Commerce) is a government initiative to promote open networks developed on open-sourced methodology, using open specifications and open network protocols, independent of any specific platform.'
-  },
-  {
     question: 'What support options are available?',
     answer:
       'We offer various support options including a help center, email support, and live chat. You can also contact our support team through the "Contact Us" section on our website.'

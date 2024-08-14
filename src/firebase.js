@@ -18,16 +18,14 @@ const firebaseConfig = {
   measurementId: 'G-26EE7FZZZE'
 };
 
-// Initialize Firebase
+
 const app = initializeApp(firebaseConfig);
 
-// Initialize Firestore, storage, and auth
+
 const db = getFirestore(app);
 const storage = getStorage(app);
 const auth = getAuth(app);
-auth.languageCode = 'en'; // Set default language for reCAPTCHA
-
-// Export initialized services and Firebase authentication functions
+auth.languageCode = 'en'; 
 export {
   app,
   db,
