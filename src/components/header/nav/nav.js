@@ -321,27 +321,7 @@ const Nav = (props) => {
                     </div>
                   </li>
                   <li className="list-inline-item">
-                    {/* <li className='list-inline-item'>
-                                        <Button><Link>Pages  <KeyboardArrowDownIcon /></Link>
-                                        </Button>
-
-                                        <div className='dropdown_menu'>
-                                            <ul>
-                                                <li><Button><Link to="/about">About Us</Link></Button></li>
-                                                <li><Button><Link to="/about">Contact</Link></Button></li>
-                                                <li><Button><Link to="/about">My Account</Link></Button></li>
-                                                <li><Button><Link to="/about">Login</Link></Button></li>
-                                                <li><Button><Link to="/about">Register</Link></Button></li>
-                                                <li><Button><Link to="/about">Forgot password</Link></Button></li>
-                                                <li><Button><Link to="/about">Reset password</Link></Button></li>
-                                                <li><Button><Link to="/about">Purchase Guide</Link></Button></li>
-                                                <li><Button><Link to="/about">Privacy Policy</Link></Button></li>
-                                                <li><Button><Link to="/about">Terms of Service</Link></Button></li>
-                                                <li><Button><Link to="/about">404 Page</Link></Button></li>
-                                            </ul>
-                                        </div>
-
-                                    </li> */}
+                    
                     
                   </li>
 
