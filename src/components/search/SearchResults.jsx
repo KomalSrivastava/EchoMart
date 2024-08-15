@@ -20,7 +20,7 @@ const SearchResults = () => {
   const location = useLocation();
   const query = new URLSearchParams(location.search).get('query');
   const { data, loading, error } = useFetchData(
-    'https://KomalSrivastava.github.io/DataApi/data.json'
+    'https://mavrick-1.github.io/DataApi/data.json'
   );
 
   if (loading)
