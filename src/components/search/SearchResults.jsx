@@ -14,13 +14,13 @@ import {
 } from '@mui/material';
 import useFetchData from '../../useFetchData';
 import Product from '../product';
-import './style.css'
+import './style.css';
 
 const SearchResults = () => {
   const location = useLocation();
   const query = new URLSearchParams(location.search).get('query');
   const { data, loading, error } = useFetchData(
-    'https://mavrick-1.github.io/DataApi/data.json'
+    'https://KomalSrivastava.github.io/DataApi/data.json'
   );
 
   if (loading)
@@ -47,13 +47,13 @@ const SearchResults = () => {
   );
 
   return (
-    <Container className='searchbox_conatiner' >
-      <div className='searchbox'>
+    <Container className="searchbox_conatiner">
+      <div className="searchbox">
         {filteredProducts.length > 0 ? (
-          filteredProducts.map((product,index) => (
+          filteredProducts.map((product, index) => (
             <div className="item" key={index}>
-                      <Product tag={product.type} item={product} />
-                    </div>
+              <Product tag={product.type} item={product} />
+            </div>
           ))
         ) : (
           <Typography variant="body1" component="p">
